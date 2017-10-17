@@ -93,7 +93,7 @@ var partyEvent = function() {
     isPartyTime = true;
     time = partyTime;
     partyTimeButton.innerText = "PARTY OVER";
-    partyTimeButton.style.backgroundColor = "#0A8DAB";
+    partyTimeButton.style.backgroundColor = "#32CD32";
   } else {
     isPartyTime = false;
     time = new Date().getHours();
